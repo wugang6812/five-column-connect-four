@@ -15,6 +15,6 @@ python3 scripts/verify.py quick
 
 需要从源码独立计算全部项目证明时，把第二行的 `quick` 换成 `full`。两条路径的输入、耗时区别和离线用法见[复现说明](docs/reproduction.md)。
 
-**核对数字。** SG5、SGZ5R、STop 三张优化表共有 1,905,890 行策略、530,957 个终止见证，分为 1,656 片。SG3 单独列账。历史回执中的 1,014 个模块只统计最终合并阶段。本仓库的 3,204 个项目模块还包括上游依赖、无顶条带和独立规则接口。[三表回执](receipts/THREE_TABLES_ACCEPTANCE.json) · [最终合并回执](receipts/COMPACT_UNIFIED_BUILD.json)
+**核对数字。** SG5、SGZ5R、STop 三张优化表共有 1,905,890 行策略、530,957 个终止见证，分为 1,656 片。SG3 单独列账。历史回执中的 1,014 个模块只统计最终合并阶段。本仓库的 3,204 个项目模块还包括上游依赖、无顶条带和独立规则接口。[三表回执](receipts/THREE_TABLES_ACCEPTANCE.json) · [最终合并回执](receipts/COMPACT_UNIFIED_BUILD.json) · [GitHub 公开机器的 v1.0.0 复验](https://github.com/wugang6812/five-column-connect-four/actions/runs/45598556691)
 
 双语论文沿用稿件署名 GPT、Claude、Gemini，采用 CC BY 4.0。项目原创程序与 Lean 源码采用 MIT 许可。[引用信息](CITATION.cff) · [独立维护的一至四列项目](https://github.com/wugang6812/narrow-connect-four)

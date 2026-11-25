@@ -23,7 +23,7 @@ python3 scripts/verify.py deps
 python3 scripts/verify.py quick
 ```
 
-The quick replay verifies source and object hashes, compiles 21 modules from source including all four table entry points, and checks the exact types and axiom dependencies of the three final finite-height declarations. The full replay compiles all 3,204 project modules from source. It can take many hours. [Full and offline instructions](docs/reproduction.md) · [Endpoint type checks](lean/CheckEndpoints.lean)
+The quick replay verifies source and object hashes, compiles 21 modules from source including all four table entry points, and checks the exact types and axiom dependencies of the three final finite-height declarations. The full replay compiles all 3,204 project modules from source. It can take many hours. [Full and offline instructions](docs/reproduction.md) · [Endpoint type checks](lean/CheckEndpoints.lean) · [Public v1.0.0 verification run](https://github.com/wugang6812/five-column-connect-four/actions/runs/45598556691)
 
 ## Strategy certificates
 
