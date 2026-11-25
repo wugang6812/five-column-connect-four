@@ -1,0 +1,41 @@
+{
+  "release": "v1.0.0",
+  "assets": {
+    "finite": {
+      "name": "c4w5-finite-source.zip",
+      "size": 6329793,
+      "sha256": "5b8f8be7fb85cba3a7ec21b4de24f42cf81922012d0e33b629d2baa402857783",
+      "members": 855
+    },
+    "odd": {
+      "name": "c4w5-odd-source.zip",
+      "size": 1279191,
+      "sha256": "0092e78b09fa713be1169792bba372565096cd9189d6c597a9c4ec040cc440c3",
+      "members": 114
+    },
+    "sg3": {
+      "name": "c4w5-sg3-source.zip",
+      "size": 2342987,
+      "sha256": "018a6e1aa411850012d5a5588ab4f8c1d4d3b469c939051ce8448d4846cd2df5",
+      "members": 106
+    },
+    "sg5": {
+      "name": "c4w5-sg5-source.zip",
+      "size": 20796132,
+      "sha256": "cc917cfc18e3f1a95c5ce4ab0129d47fa55e0d8e82f9d6308ee9bc8fde69a258",
+      "members": 847
+    },
+    "sgz5r": {
+      "name": "c4w5-sgz5r-source.zip",
+      "size": 24673681,
+      "sha256": "87787509e981d06dfbfe7b2e48a3d3e92e7fbc93dd24a359f0d0c23d7cecce52",
+      "members": 953
+    },
+    "stop": {
+      "name": "c4w5-stop-source.zip",
+      "size": 4402539,
+      "sha256": "cb66e1a79cf54a5291c601e28dfe9fbce289d5a0228f4f2b6c0f0ab1cb7ff551",
+      "members": 196
+    }
+  }
+}

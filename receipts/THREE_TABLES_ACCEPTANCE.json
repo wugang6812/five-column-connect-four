@@ -1,0 +1,76 @@
+{
+  "scope": "three optimized tables only; not the full even or unified theorem build",
+  "tables": {
+    "sg5": {
+      "foundation": "4f61a79206cfa9a5692fcc3f848128d0eced92264d40b928db461f1f0399ed2b",
+      "lean_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "main_lineage": "bffc10657d279e14adb41ec7165343ce5854947b667605599206ddbc17e69e97",
+      "seconds_this_session": 1730.983,
+      "source_archive": {
+        "bytes": 29561784,
+        "name": "C4W5_SG5_CapOnly_697K_Optimized_SOURCE_ONLY_20261121_v1.zip",
+        "sha256": "5318e4e43882151ba71cd38b2e7ad924a2af43606c73cdb2d45cc3b934517077"
+      },
+      "status": "ALL_SHARDS_MAIN_AND_ENDPOINT_KERNEL_ACCEPTED",
+      "table": "sg5",
+      "theorems": {
+        "C4W5.SG5LongPacked.g5_mid": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "C4W5.SG5LongPacked.g5_tight": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "toolchain": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+      "validated_shards": 697
+    },
+    "sgz": {
+      "foundation": "4f61a79206cfa9a5692fcc3f848128d0eced92264d40b928db461f1f0399ed2b",
+      "lean_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "main_lineage": "e6c7a93aab4f12bc459a24011a876245660fe555fb7442c7756680627ec8e99b",
+      "seconds_this_session": 8542.53,
+      "source_archive": {
+        "bytes": 44436019,
+        "name": "C4W5_SGZ5R_DirectCap_Wide905511_Full_SOURCE_ONLY_20261121_v1.zip",
+        "sha256": "c86372e41f6989ab57fd2faa9cedc33a2287e63f503327f220629b3cb67be5fb"
+      },
+      "status": "ALL_SHARDS_MAIN_AND_ENDPOINT_KERNEL_ACCEPTED",
+      "table": "sgz",
+      "theorems": {
+        "C4W5.SGZLongPacked.g5_wide": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "toolchain": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+      "validated_shards": 787
+    },
+    "stop": {
+      "foundation": "4f61a79206cfa9a5692fcc3f848128d0eced92264d40b928db461f1f0399ed2b",
+      "lean_sha256": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550",
+      "main_lineage": "bc3c3123b3bccebe4edd8408ec978bbf31a60de89d77d66c3995a10f283d2dd8",
+      "seconds_this_session": 11572.069,
+      "source_archive": {
+        "bytes": 4980120,
+        "name": "C4W5_STop_Cap197869_RealStretch_SOURCE_ONLY_20261121_v1.zip",
+        "sha256": "d027da68fe5b45403b72960172f99add0f2592072d4b9014a345c5183a8ebbc7"
+      },
+      "status": "ALL_SHARDS_MAIN_AND_ENDPOINT_KERNEL_ACCEPTED",
+      "table": "stop",
+      "theorems": {
+        "C4W5.STopLongPacked.top_all": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "toolchain": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+      "validated_shards": 172
+    }
+  }
+}

@@ -1,0 +1,32 @@
+SOURCE_ONLY_FULL_READBACK_PASS {'policy': {'rows': 802510, 'word_stream_sha256': 'af6561ee80223dd069756ca8c30025426ff0716df7edcc1ac1737295b64e3200'}, 'witness': {'rows': 220630, 'word_stream_sha256': '4da6407748ba95408905eedb9091eeadb5f47626ed94226a9d0bc8b912f6c4be'}}
+{
+  "status": "FULL_STATIC_SOURCE_WIRE_ROUNDTRIP_PASS_NO_COMPILATION",
+  "matched_packed_windows": {
+    "policy": {
+      "window_literals": 37730,
+      "lookup_groups": 2359
+    },
+    "tagged_witness": {
+      "window_literals": 11356,
+      "lookup_groups": 710
+    }
+  },
+  "modules": 922,
+  "future_rep_rows": 24
+}
+{
+  "status": "SOURCE_ROUNDTRIP_AND_STRUCTURE_VERIFIED_NO_LEAN",
+  "all_projected_records_exact": 235654,
+  "policy_and_witness_keys_disjoint": true,
+  "kept_policy_rows": 197869,
+  "witness_payload_counts": {
+    "long": 14985,
+    "cap": 22800
+  },
+  "layout_identical": true,
+  "public_top_all_identical": true,
+  "window_cuts_verified": true,
+  "closure_groups_covered_exactly_once": 516,
+  "kernel_source_files": 172,
+  "original_root_in_live_not_witness": true
+}

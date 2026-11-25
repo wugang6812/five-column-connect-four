@@ -1,0 +1,32 @@
+{
+  "status": "KERNEL_ACCEPTED",
+  "axioms": {
+    "five_columns_even_draw": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "five_columns_draw": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "five_columns_neither_player_wins": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "original_entry_sha256": "db73fe2c63b3567b9d42f1ed7c60d9bf45225b399c2a612dd41507a0c9c4fc98",
+  "main_hashes": {
+    "SG5LongPacked.Main": "5936a13e3e581886323e39fa1c25a0c3e94ffa65f9dbcc74729c143945485d40",
+    "SGZLongPacked.Main": "e0595291ca59beb3b3d82aa69e029c314da2aca6b24c4895767b89d7b8be1487",
+    "STopLongPacked.Main": "5ad9d84f88c84389c6a04b296cc43d1bb4db5f04d8cb8e14641b026cf827eccc",
+    "SG3LongPacked.Main": "9cd037743de291b2f0976c022f3a03c507a9a76b98eff0cb457de5b1e55e0cfd"
+  },
+  "even_source_sha256": "e79e25129a40a8f1e0aa4cb1b3a081b4c903fe0c538cabfe718f0dd45d178f70",
+  "new_modules": {
+    "verified_reuse": 120,
+    "new": 894
+  }
+}

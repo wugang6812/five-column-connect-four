@@ -1,0 +1,12 @@
+*.lean -text
+*.toml -text
+lean-toolchain -text
+lake-manifest.json -text
+*.pdf binary
+*.json text eol=lf
+*.py text eol=lf
+*.cpp text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.tex -text
+*.log -text

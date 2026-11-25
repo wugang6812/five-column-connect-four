@@ -1,0 +1,15 @@
+Proof path C4W5.five_columns_even_draw → C4W5.SG5LongPacked.g5_tight: [C4W5.five_columns_even_draw,
+ C4W5.Compact.stretch_families,
+ C4W5.SG5LongPacked.g5_tight]
+Proof path C4W5.five_columns_even_draw → C4W5.SG5LongPacked.g5_mid: [C4W5.five_columns_even_draw,
+ C4W5.Compact.stretch_families,
+ C4W5.SG5LongPacked.g5_mid]
+Proof path C4W5.five_columns_even_draw → C4W5.SGZLongPacked.g5_wide: [C4W5.five_columns_even_draw,
+ C4W5.Compact.stretch_families,
+ C4W5.SGZLongPacked.g5_wide]
+Proof path C4W5.five_columns_even_draw → C4W5.STopLongPacked.top_all: [C4W5.five_columns_even_draw,
+ C4W5.Compact.stretch_families,
+ C4W5.STopLongPacked.top_all]
+Proof path C4W5.five_columns_draw → C4W5.five_columns_even_draw: [C4W5.five_columns_draw, C4W5.five_columns_even_draw]
+Proof path C4W5.five_columns_neither_player_wins → C4W5.five_columns_draw: [C4W5.five_columns_neither_player_wins,
+ C4W5.five_columns_draw]

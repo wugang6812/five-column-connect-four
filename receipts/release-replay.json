@@ -1,0 +1,23 @@
+{
+  "mode": "quick",
+  "toolchain": "Lean (version 4.34.0-rc2, x86_64-unknown-linux-gnu, commit 6a10ac8c22beadecabdbb0919c2b50214762f91d, Release)",
+  "compiled": 21,
+  "imported_from_cache": 3183,
+  "axioms": {
+    "five_columns_even_draw": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "five_columns_draw": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "five_columns_neither_player_wins": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+ "release": "v1.0.0",
+ "binds": {
+  "certificates/modules.json": "e2977760aec197b0305a83d0f09c2a69e8638cc2a7687568bb02903878aff324",
+  "certificates/imports.json": "0f52375574d0d0d14264bf1b84542256f9ac56553c9b885646a2d508742dcf89",
+  "certificates/objects.json": "cdf97b6de49e4adeadd1f687c231dcc23967a61a9d9d793a76873bfcf6221185",
+  "lean/lake-manifest.json": "82214440113ab2e88ad7764e23e148746fe79e8567f79709bf4ee940fdc6c48c",
+  "lean/lean-toolchain": "8190e75a201741065fe508b28955dd64dd72d090babe5f70ce6848879d68ae88"
+ },
+ "archive": {
+  "name": "c4w5-linux-x86_64-replay-cache.zip",
+  "members": 3183,
+  "size": 335361131,
+  "sha256": "f5d8e000beffe50aec492b4ad6eccf9198a4c07fd1009cf00ed193236f328ac0"
+ }
+}

@@ -1,0 +1,6 @@
+The English and Chinese manuscripts, their LaTeX sources, and their original
+figures are licensed under the Creative Commons Attribution 4.0 International
+license (CC BY 4.0). Credit the manuscript byline, GPT, Claude and Gemini,
+link to the license, and identify changes.
+
+https://creativecommons.org/licenses/by/4.0/

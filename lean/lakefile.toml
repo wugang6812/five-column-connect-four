@@ -1,0 +1,13 @@
+name = "C4W5"
+version = "1.0.0"
+defaultTargets = ["FiveColumnProof"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "cecebc3014fd27da46b2899d7639ea643a444a51"
+
+[[lean_lib]]
+name = "FiveColumnProof"
+roots = ["C4W5", "CapDoubleMasks", "CapFastTagged", "CapTaggedGate", "CapTransferArithmetic", "CapTransferBoard", "CapTransferCheck", "CapTransferDefs", "CapTransferRebase", "CapTransferStretch", "CapTransferZone", "Connect4Proof", "EvenClaimSharded", "EvenClaimWide", "FiveColumns", "FiveColumnsInfinite_PureCore", "G5LongRoot", "G5WindowRoot", "LongThreat", "LongThreatBits", "LongThreatCheck", "LongThreatDefs", "LongThreatLeaf", "LongThreatStretch", "LongThreatStretchZone", "LongThreatZone", "LongThreatZoneChecked", "PublicTypeAudit", "SG3CheckedRoot", "SG3LongPacked", "SG5LongPacked", "SGZLayout", "SGZLongPacked", "STopLongPacked", "TopCheckedRoot", "WindowBank", "WindowFast", "WindowLongGate", "WindowLongGateFast", "WindowStretch", "WindowStretchExtra", "WindowZoneEnds", "WindowZoneTagged", "ZoneEndChecked", "ZoneEndStretch", "experiments"]
+globs = ["C4W5.FiveColumnsUnified", "PublicTypeAudit", "FiveColumnsInfinite_PureCore"]

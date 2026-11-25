@@ -1,0 +1,37 @@
+{
+  "even": {
+    "name": "C4W5_even_compact_SOURCE_STAGED_20261121.zip",
+    "sha256": "575c195b07fc314e1f5ae56f09cf2d9b6736aa288aa518c4b49913e5291a35fb",
+    "size": 87002342
+  },
+  "odd": {
+    "name": "C4W5_odd_takeover_v1.zip",
+    "sha256": "6a2a5d757bcb1dad4cac7ba2fadc8736acafdf8a00764ac59c1b037a6a81de8c",
+    "size": 1391436
+  },
+  "sg3": {
+    "name": "C4W5_SG3_LongZO_KernelAccepted_20261121.zip",
+    "sha256": "0db0063dbd2e802e64bfd50c7a0783ac840c8015207ecfbae9df62b6a8ed52cf",
+    "size": 13911649
+  },
+  "sg5": {
+    "name": "C4W5_SG5_CapOnly_697K_Optimized_SOURCE_ONLY_20261121_v1.zip",
+    "sha256": "5318e4e43882151ba71cd38b2e7ad924a2af43606c73cdb2d45cc3b934517077",
+    "size": 29561784
+  },
+  "sgz5r": {
+    "name": "C4W5_SGZ5R_DirectCap_Wide905511_Full_SOURCE_ONLY_20261121_v1.zip",
+    "sha256": "c86372e41f6989ab57fd2faa9cedc33a2287e63f503327f220629b3cb67be5fb",
+    "size": 44436019
+  },
+  "sgz5r-support": {
+    "name": "C4W5_SGZ5R_CapTransfer_Direct_Kernel_Accepted_20261121_v1.zip",
+    "sha256": "01ddec2c2eb33039cdd0701196bf65228522fcbc9166d2e1161f494f2ced5c16",
+    "size": 1254304
+  },
+  "stop": {
+    "name": "C4W5_STop_Cap197869_RealStretch_SOURCE_ONLY_20261121_v1.zip",
+    "sha256": "d027da68fe5b45403b72960172f99add0f2592072d4b9014a345c5183a8ebbc7",
+    "size": 4980120
+  }
+}

@@ -1,0 +1,66 @@
+name: Verify the proof and papers
+on:
+  pull_request:
+  push:
+    branches: [main]
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  endpoints:
+    name: Lean theorem and axiom audit
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Install the pinned Linux Lean distribution
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP"
+          tarball=lean-4.34.0-rc2-linux.tar.zst
+          curl --fail --location --retry 3 -o "$tarball" "https://github.com/leanprover/lean4/releases/download/v4.34.0-rc2/$tarball"
+          echo "3d011041203acacf300d343a39673f7d233743397993797c941346ae9e5df1a8  $tarball" | sha256sum --check
+          tar --zstd -xf "$tarball"
+          echo "$RUNNER_TEMP/lean-4.34.0-rc2-linux/bin" >> "$GITHUB_PATH"
+      - name: Prepare locked Mathlib dependencies
+        run: python3 scripts/verify.py deps
+      - name: Verify certificate sources and recheck the final theorems
+        run: python3 scripts/verify.py quick --jobs 2
+      - name: Independently decode the three optimized tables
+        run: python3 scripts/check_tables.py
+      - name: Preserve this run's acceptance result
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: endpoint-audit
+          path: .replay/quick-*/acceptance.json
+          include-hidden-files: true
+          if-no-files-found: error
+  papers:
+    name: Bilingual manuscripts and certificate generator
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Compile the certificate tools and check a small board
+        run: |
+          set -eu
+          for file in tools/*.cpp; do
+            exe="$RUNNER_TEMP/$(basename "$file" .cpp)"
+            g++ -std=c++17 -O2 -pthread "$file" -o "$exe"
+          done
+          "$RUNNER_TEMP/certgen" 2 3 > "$RUNNER_TEMP/h2-certificate.txt"
+          test -s "$RUNNER_TEMP/h2-certificate.txt"
+      - name: Install the manuscript toolchain
+        run: |
+          sudo apt-get -qq update
+          sudo apt-get -y --no-install-recommends install texlive-latex-extra texlive-xetex texlive-lang-chinese texlive-fonts-recommended fonts-linuxlibertine fonts-noto-cjk
+      - name: Typeset both languages
+        run: python3 scripts/build_paper.py --out _build/paper

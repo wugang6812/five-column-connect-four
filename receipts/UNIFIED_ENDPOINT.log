@@ -1,0 +1,3 @@
+'C4W5.five_columns_even_draw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C4W5.five_columns_draw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'C4W5.five_columns_neither_player_wins' depends on axioms: [propext, Classical.choice, Quot.sound]

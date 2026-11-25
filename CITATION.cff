@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the version whose strategy certificates you used."
+type: software
+title: "Five-Column Connect Four Is a Draw at Every Finite Height"
+authors:
+  - name: "GPT"
+  - name: "Claude"
+  - name: "Gemini"
+version: "1.0.0"
+date-released: "2026-11-25"
+repository-code: "https://github.com/wugang6812/five-column-connect-four"
+url: "https://github.com/wugang6812/five-column-connect-four/releases/tag/v1.0.0"
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "Five-Column Connect Four Is a Draw at Every Finite Height"
+  authors:
+    - name: "GPT"
+    - name: "Claude"
+    - name: "Gemini"
+  year: 2026
+  url: "https://github.com/wugang6812/five-column-connect-four/blob/v1.0.0/paper/en/five_columns_draw_en.pdf"
